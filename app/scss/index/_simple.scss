@@ -35,5 +35,15 @@
     border: 1px solid #7875fe;
     color: #7875fe;
     font-size: 20px;
+    &:hover{
+      color: #fff;
+      background: #7875FE;
+    }
+    &:active{
+      background: #4946B4;
+    }
+    &:focus{
+      background: #DAD9FB;
+    }
   }
 }

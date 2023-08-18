@@ -36,7 +36,7 @@
     @extend %roboto-400;
     font-size: 20px;
     position: relative;
-    &::before{
+    &::before {
       content: "";
       position: absolute;
       background-image: url(../images/icon/arrow-1.svg);
@@ -44,6 +44,16 @@
       height: 15px;
       right: -26px;
       top: 4px;
+    }
+    &:hover {
+      color: #4946B4;
+    }
+    &:focus {
+      color: #7875FE;
+      background: #DAD9FB;
+    }
+    &:active {
+      color: #4946B4;
     }
   }
 }
