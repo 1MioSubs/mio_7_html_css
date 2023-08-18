@@ -1,0 +1,39 @@
+.simple {
+  &__inner {
+    padding: 90px 165px;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+  }
+  &__img {
+    max-width: 730px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 165px;
+  }
+  &__info {
+    width: 350px;
+    padding-top: 24px;
+  }
+  &__title {
+    @extend %roboto-400;
+    color: #666;
+    font-size: 40px;
+    line-height: 100%; /* 40px */
+    margin-bottom: 8px;
+  }
+  &__text {
+    color: #85859b;
+    font-size: 18px;
+    line-height: 170%; /* 30.6px */
+    margin-bottom: 30px;
+  }
+  &__btn {
+    display: inline-block;
+    padding: 23px 89px;
+    border: 1px solid #7875fe;
+    color: #7875fe;
+    font-size: 20px;
+  }
+}
