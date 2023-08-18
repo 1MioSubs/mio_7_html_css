@@ -1,0 +1,49 @@
+.service {
+  background-color: #fff;
+  &__inner {
+    padding: 90px 165px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 255px;
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  &__title {
+    color: #666;
+    @extend %roboto-400;
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  &__info {
+    color: #b5b5bd;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  &__text {
+    color: #85859b;
+    font-size: 18px;
+    line-height: 170%; /* 30.6px */
+    margin-bottom: 20px;
+  }
+  &__link {
+    color: #7875fe;
+    @extend %roboto-400;
+    font-size: 20px;
+    position: relative;
+    &::before{
+      content: "";
+      position: absolute;
+      background-image: url(../images/icon/arrow-1.svg);
+      width: 21px;
+      height: 15px;
+      right: -26px;
+      top: 4px;
+    }
+  }
+}
