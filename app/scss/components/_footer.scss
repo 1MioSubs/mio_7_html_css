@@ -1,0 +1,25 @@
+.footer {
+  &__top {
+    background-color: #4c5866;
+    &-inner{
+      padding: 29px 165px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &__bottom {
+    padding: 3px 0;
+    background-color: #fff;
+    text-align: center;
+    color: #4c5866;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  &__social-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+  }
+}
