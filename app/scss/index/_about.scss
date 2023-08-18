@@ -1,0 +1,43 @@
+// about start
+
+.about {
+  &__inner {
+    padding: 130px 165px;
+    min-height: 650px;
+    position: relative;
+    overflow: hidden;
+  }
+  &__img {
+    max-width: 540px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 165px;
+  }
+  &__info {
+    width: 445px;
+  }
+  &__title {
+    @extend %roboto-400;
+    color: #4c5866;
+    font-size: 60px;
+    line-height: 100%; /* 60px */
+    margin-bottom: 30px;
+  }
+  &__text {
+    color: #85859b;
+    font-size: 18px;
+    line-height: 150%; /* 27px */
+    margin-bottom: 30px;
+    min-height: 110px;
+  }
+  &__btn {
+    display: inline-block;
+    padding: 23px 89px;
+    border: 1px solid #7875FE;
+    color: #7875fe;
+    font-size: 20px;
+  }
+}
+
+// about end
